@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link href="styles.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon exemple C.S.S</title>
+</head>
+<body>
+    <div id="form">
+    <table class="table">
+        <form> 
+            <a href="#liste">aller en bas de la page</a>
+            <br>
+            <a href="client.html">Ajouter un employée</a>
+            <tr><th colspan="2"> <h2>Ajout des Employées</h2></th></tr>
+            <tr><td>Nom</td><td><input class="inpt" type="text" placeholder="votre nom ici"></td></tr>
+            <tr><td>prénom</td><td><input class="inpt" type="text" placeholder="votre prénom ici"></td></tr>
+            <tr><td>Grade</td><td><select class="inpt"><option>Ouvrier</option><option>Chef</option><option>Administration</option></select></td></tr>
+            <tr><td><button class="button" id="sub" type="submit"> Envoyer</button></td><td><button type="reset" class="button" id="res">Vider</button></td></tr>
+
+        </form>
+    </table>
+</div>
+<div id="explication">
+    <h2>explication des grades</h2>
+
+    <ul>
+        <li>Ouvrier: l'employée quelque soit son job: technicien ingénieur...</li>
+        <li>Chef: le responsable d'un groupe d'ouvrier</li>
+        <li>Administrateur: le responsable Administratif (directeur , RH , Secretaire)</li>
+        
+    </ul>
+    <h2>Organigramme</h2>
+    <ol>
+        <li>Administrateur</li>
+        <li>Chef</li>
+        <li>Ingénieur</li>
+        <li>Technicien</li>
+    </ol>
+</div>
+<div id="liste">
+    <table class="tab">
+        <tr><td>Nom</td><td>Prénom</td><td>Grade</td><td>Action</td></tr>
+        <tr><td>Ahmed</td><td>Mohamed</td><td>ingénieur</td><td><button>Modifier</button>&nbsp;<button>supprimer</button></td></tr>
+        <tr><td>Khalil</td><td>Lakhdhar</td><td>admin</td><td><button>Modifier</button>&nbsp;<button>supprimer</button></td></tr>
+        <tr><td>Mohamed</td><td>Mohamed</td><td>Chef</td><td><button>Modifier</button>&nbsp;<button>supprimer</button></td></tr>
+        <tr><td>Mekrazi</td><td>Ibtissem</td><td>Ouvrier</td><td><button>Modifier</button>&nbsp;<button>supprimer</button></td></tr>
+        <tr><td>Gmari</td><td>Ines</td><td>RH</td><td><button>Modifier</button>&nbsp;<button>supprimer</button></td></tr>
+    </table>
+    <br>
+    <a href="#form">aller en haut de la page</a>
+
+</div>
+</body>
+</html>

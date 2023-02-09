@@ -1,0 +1,43 @@
+.table
+{
+    inline-size:30%;
+    margin-inline-start:35%;
+    margin-inline-end:35%;
+    text-align:center;
+}
+td {
+    width:50%;
+}
+h2{
+    color:blue;
+}
+.inpt
+{
+    width: 90%;
+    margin-bottom: 10px;
+    height:30px;
+    border-radius: 5px;
+}
+.button
+{
+    width: 30%;
+    height: 35px;
+    font-weight: bold;
+}
+#res
+{
+    background-color:orange;
+}
+#sub
+{
+    background-color:#4267B2;
+    color:#fff
+
+}
+.tab
+{
+    width: 80%;
+    font-weight: bold;
+    margin:10%;
+}
+

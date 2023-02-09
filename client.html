@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>liste</title>
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        h2 {
+            color:green;
+        }
+        h1 {
+            display:none;
+        }
+    </style>
+
+</head>
+<body>
+    <div>
+        <h1>ma page web</h1>
+        <form >
+            <table class="table">
+                <tr><td colspan="2"><h2>Ajout de client</h2></td></tr>
+                <tr><td>Nom complet</td><td><input type="text" required></td></tr>
+                <tr><td>téléphone</td><td><input type="text" pattern="[0-9 +]{8,30}" required></td></tr>
+                <tr><td><button class="button" id="sub" type="submit"> Envoyer</button></td><td><button type="reset" class="button" id="res">Vider</button></td></tr>
+
+            </table>
+
+        </form>
+    </div>
+    
+</body>
+</html>
